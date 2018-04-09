@@ -1,4 +1,4 @@
-#!/bin/bash -e
+#!/usr/bin/env sh
 
 # To be used in later version
 #/usr/bin/memcached -m 64 -p 11211 -l 127.0.0.1 -u root &

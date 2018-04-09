@@ -1,8 +1,6 @@
-FROM python:2
+FROM python:2-alpine3.7
 
-RUN apt-get update && \
-    apt install -y \
-        sqlite3
+RUN apk add --no-cache sqlite
         
 # To be used in later version
 #        memcached
