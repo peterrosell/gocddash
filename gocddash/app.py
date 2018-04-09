@@ -212,4 +212,4 @@ if __name__ == "__main__":
         app.config['GO_SERVER_USER'] = raw_input('go-user: ')
     if 'GO_SERVER_PASSWD' not in app.config:
         app.config['GO_SERVER_PASSWD'] = getpass.getpass()
-    app.run()
+    app.run(host= '0.0.0.0')
